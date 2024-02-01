@@ -17,8 +17,8 @@ computers = ["DESKTOP-1, DESKTOP-2"] # Replace with the name(s) of your target W
 4. Open `run.bat` and enjoy!
 
 ## Automatically run this program:
-You can use Windows Task Scheduler to run this program at a time or interval of your choice.<br>
-In order to do this, you must convert the python script into a single executeable file:
+You can automatically run this program at a specific time or interval of your choice.<br>
+In order to do this, you must convert the python script into a single executeable file & use Windows Task Scheduler to automatically run it:
 
 1. Install pyinstaller:
 ```
