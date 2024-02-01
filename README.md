@@ -25,7 +25,7 @@ In order to do this, you must convert the python script into a single executeabl
 pip install pyinstaller
 ```
 2. Open a terminal window in the same folder as `get-programs.py` and run this command:<br>
-*(include `--noconsole` if you want no console window to appear when running the executable)*
+*(optional: include `--noconsole` if you want no console window to appear when running the executable)*
 ```
 pyinstaller --onefile --noconsole get-programs.py
 ```
