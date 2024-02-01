@@ -1,5 +1,5 @@
 ## List of Installed Programs on Windows PCs
-This simple Python script retrieves a list of installed programs from one or more Windows computers and writes those lists to text files. <br>
+This simple Python script retrieves a list of installed programs from one or more Windows computers and writes those lists to text files.<br><br>
 I created this program to have a backup list of every installed program for when I need to factory reset any of my Windows PCs
 
 ## Convert Python Script to Executable:
