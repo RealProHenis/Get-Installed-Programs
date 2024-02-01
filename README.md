@@ -21,7 +21,7 @@ computers = ["DESKTOP-1, DESKTOP-2"] # Replace with the name(s) of your target W
 
 ## Automatically run this program:
 You can automatically run this program at a specific time or interval of your choice.<br>
-In order to do this, you must convert the python script into a single executeable file & use Windows Task Scheduler to automatically run it:
+In order to do this, you must compile this python script into a single executeable file & use Windows Task Scheduler to automatically run it:
 
 1. Install pyinstaller:
 ```
