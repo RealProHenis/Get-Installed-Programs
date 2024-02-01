@@ -1,6 +1,9 @@
-## List of Installed Programs on Windows PCs
+# List of Installed Programs on Windows PCs
 This simple Python script retrieves a list of installed programs from one or more Windows computers on your local network and writes those lists to text files.<br><br>
 I created this program to have a convenient backup list of every installed program on all of my Windows PCs for when I need to perform a factory reset
+
+## Requirements:
+- Install [Python](https://www.python.org/downloads/)
 
 ## How to run:
 1. Open `get-programs.py` in a text editor & set the name of the PCs:
