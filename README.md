@@ -7,11 +7,11 @@ I created this program to have a convenient backup list of every installed progr
 ```
 ... existing code ...
 
-computers = ["DESKTOP-1, DESKTOP-2"] # Replace with the name(s) of your Windows PCs
+computers = ["DESKTOP-1, DESKTOP-2"] # Replace with the name(s) of your target Windows PCs
 
 ... existing code ...
 ```
-2. Each computer must have the Remote Registry service running<br>
+2. Each target computer must have the Remote Registry service running<br>
 *(open Windows Services and set RemoteRegistry to run automatically at startup if you wish to run this program automatically)* <br><br>
 **IMPORTANT:** Configure your Windows Firewall inbound rules to only accept Remote Service Management from the local IP address of the computer that will be running this code<br><br>
 4. Open `run.bat` and enjoy!
