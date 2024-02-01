@@ -12,7 +12,7 @@ computers = ["DESKTOP-1, DESKTOP-2"] # Replace with the name(s) of your Windows 
 ... existing code ...
 ```
 2. Each computer must have Remote Registry enabled in Windows Services<br><br>
-**IMPORTANT:** Configure your Windows Firewall inbound rules to only accept Remote Service Management from the local IP address of the computer that will be running this code<br>
+**IMPORTANT:** Configure your Windows Firewall inbound rules to only accept Remote Service Management from the local IP address of the computer that will be running this code<br><br>
 4. Open `run.bat` and enjoy!
 
 ## Automatically run this program:
