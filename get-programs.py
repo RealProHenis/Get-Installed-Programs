@@ -25,7 +25,7 @@ def get_installed_programs(remote_computer=None):
                 except WindowsError:
                     continue
         except WindowsError:
-            print(f"Unable to access the registry of {remote_computer}")
+            print(f"ERROR: Unable to access the registry of {remote_computer}")
 
     return installed_programs
 
@@ -34,17 +34,9 @@ def write_programs_to_file(file_path, programs):
         for program in sorted(programs):
             file.write(program + "\n")
 
-# List of computers
-computers = ["DESKTOP-PC-1, DESKTOP-PC-2"] # Replace with the name(s) of your Windows PCs
+computers = ["DESKTOP-1, DESKTOP-2"] # Replace with the name(s) of your Windows PCs
 
 for computer in computers:
-    # Get the list of installed programs from a remote computer
     programs = get_installed_programs(computer)
-
-    # Path to the output file
     output_file = f"{computer} [Installed Programs].txt"
-
-    # Write the programs to the file
     write_programs_to_file(output_file, programs)
-
-    print(f"List of installed programs written to {output_file}")
