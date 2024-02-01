@@ -17,6 +17,8 @@ computers = ["DESKTOP-1, DESKTOP-2"] # Replace with the name(s) of your Windows 
 You can use Windows Task Scheduler to run this program at a time or interval of your choice.<br>
 In order to do this, you must convert the python script into a single executeable file:
 
+**NOTE:** Windows Security false flagged my compiled .exe as a virus, so I needed to add an exclusion for it. [Learn more](https://support.microsoft.com/en-us/windows/add-an-exclusion-to-windows-security-811816c0-4dfd-af4a-47e4-c301afe13b26)
+
 1. Install pyinstaller:
 ```
 pip install pyinstaller
