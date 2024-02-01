@@ -29,9 +29,9 @@ pip install pyinstaller
 ```
 pyinstaller --onefile --noconsole get-programs.py
 ```
-3. Run the compiled .exe file that gets created at `/dist/get-programs.exe`<br>
-**NOTE:** Windows Security false flagged my compiled .exe as a virus, so I needed to add an exclusion for it. [Learn more](https://support.microsoft.com/en-us/windows/add-an-exclusion-to-windows-security-811816c0-4dfd-af4a-47e4-c301afe13b26)
-5. Open Windows Task Scheduler.
+3. Run the compiled .exe file that gets created at `/dist/get-programs.exe`<br><br>
+**NOTE:** Windows Security false flagged my compiled .exe as a virus, so I needed to add an exclusion for it. [Learn more](https://support.microsoft.com/en-us/windows/add-an-exclusion-to-windows-security-811816c0-4dfd-af4a-47e4-c301afe13b26) <br><br>
+4. Open Windows Task Scheduler.
     - In the Actions pane on the right, click on "Create Basic Task...".
     - Name the task (e.g., "Get-Installed-Programs").
     - Choose a trigger interval (e.g., Daily, Weekly, Monthly, etc.)
