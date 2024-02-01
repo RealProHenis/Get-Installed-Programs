@@ -34,7 +34,7 @@ def write_programs_to_file(file_path, programs):
         for program in sorted(programs):
             file.write(program + "\n")
 
-computers = ["DESKTOP-1, DESKTOP-2"] # Replace with the name(s) of your Windows PCs
+computers = ["DESKTOP-1, DESKTOP-2"] # Replace with the name(s) of your target Windows PCs
 
 for computer in computers:
     programs = get_installed_programs(computer)
