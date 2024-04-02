@@ -20,6 +20,16 @@ computers = ["DESKTOP-1, DESKTOP-2"] # Replace with the name(s) of your target W
 **IMPORTANT:** Configure your Windows Firewall inbound rules to only accept Remote Service Management from the local IP address of the computer that will be running this code<br>
 4. Open `run.bat` and enjoy!
 
+## Optional: Build executeable
+1. Install pyinstaller:
+```
+pip install pyinstaller
+```
+2. Open a terminal window in the same folder as `get-programs.py` and run this command:
+```
+pyinstaller --onefile --noconsole get-programs.py
+```
+3. That's it! You'll find the executable `get-programs.exe` in the 'dist' directory.
 ## Automatically run this program:
 You can automatically run this program at a specific time or interval of your choice.<br>
 
