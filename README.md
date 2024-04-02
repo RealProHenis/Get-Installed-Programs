@@ -39,6 +39,6 @@ You can automatically run this program at a specific time or interval of your ch
 4. Choose a trigger interval (e.g., Daily, Weekly, Monthly, etc.)
 5. Choose a specific interval (e.g., time of day, day of the week, etc.)
 6. Select "Start a program" as the Action
-7. Browse to the location of the `run.bat` that's located in the same folder as `get-programs.py`
+7. Browse to the location of the `run.bat` *(or the compiled .exe)* that's located in the same folder as `get-programs.py`
 8. Set the `Start in (optional):` location to the folder that contains `run.bat` & `get-programs.py` (e.g., "C:\Users\Henry\Documents\List-Of-Installed-Programs\").
 9. You're all set! Click Finish.
