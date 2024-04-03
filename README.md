@@ -42,4 +42,4 @@ You can automatically run this program at a specific time or interval of your ch
 7. Browse to the location of the `run.bat` *(or the compiled .exe)* that's located in the same folder as `get-programs.py`
 8. Set the `Start in (optional):` location to the folder that contains `run.bat` & `get-programs.py` (e.g., "C:\Users\Henry\Documents\List-Of-Installed-Programs\").
 9. In the Settings tab, uncheck the `Stop the task if it runs longer than:` checkbox.
-10. You're all set! Click OK.
+10. You're all set! Click Finish.
